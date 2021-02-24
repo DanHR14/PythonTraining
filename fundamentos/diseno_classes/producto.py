@@ -12,7 +12,7 @@ class Producto:
     
     def get_id_producto(self):
         return self.__id_producto
-    
+        
     def set_id_producto(self, id_producto):
         self.__id_producto = id_producto
         
