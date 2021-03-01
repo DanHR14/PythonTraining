@@ -55,7 +55,7 @@ class PersonaDao:
             cursor.execute(cls.__ELIMINAR, valores)
             return cursor.rowcount
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
     #personas = PersonaDao.seleccionar()
     #for persona in personas:
     #    logger.debug(persona)
